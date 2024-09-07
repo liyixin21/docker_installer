@@ -19,9 +19,9 @@ B站，抖音，Youtube全网同名，转载请注明作者<br>
 sudo curl -fsSL https://github.com/liyixin21/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
-> 备用（如果Github访问不了，可以使用Gitee的链接）<br>
+> 备用<br>
 ```
-sudo curl -fsSL https://gitee.com/liyixin21/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://ghproxy.23250232.xyz/https://github.com/liyixin21/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 启动docker

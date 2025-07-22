@@ -15,7 +15,7 @@ sudo curl -fsSL https://github.com/liyixin21/docker_installer/releases/download/
 
 > 备用<br>
 ```
-sudo curl -fsSL https://ghproxy.23250232.xyz/https://github.com/liyixin21/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://ghproxy.liyixin.vip/https://github.com/liyixin21/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 启动docker
@@ -33,7 +33,7 @@ sudo vi /etc/docker/daemon.json
 ```
 {
     "registry-mirrors": [
-        "https://docker.23250232.xyz/",
+        "https://docker.liyixin.vip/",
     ]
 }
 ```

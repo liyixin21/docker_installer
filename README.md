@@ -33,7 +33,7 @@ sudo vi /etc/docker/daemon.json
 ```
 {
     "registry-mirrors": [
-        "https://docker.liyixin.vip/",
+        "https://docker.liyixin.vip/"
     ]
 }
 ```
